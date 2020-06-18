@@ -10,7 +10,6 @@ int main()
 	const size_t array_size = 10;
 	int int_array[array_size];
 	auto *array_pointer = int_array;
-	auto *b = begin(int_array), *e = end(int_array);
 	for (auto *pcurr = begin(int_array), *pend = end(int_array); pcurr != pend; ++pcurr)
 	{
 		*pcurr = 0;
